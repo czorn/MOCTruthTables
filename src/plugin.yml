@@ -1,3 +1,11 @@
 name: MOCTruthTable
-main: com.zornchris.MOCTruthTable
+main: com.zornchris.moctruthtables.MOCTruthTables
 version: 0.01
+depends: [CraftBukkit]
+
+commands:
+    moctt:
+        description: Interact with MOCTruthTables
+        permissions: moctruthtables.moctt
+        usage: /moctt set [block][scenario number]
+        
